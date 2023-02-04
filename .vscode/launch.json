@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Methods",
+            "request": "launch",
+            "mainClass": "Methods",
+            "projectName": "vscode files_2bfd6693"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
