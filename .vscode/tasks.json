@@ -7,7 +7,10 @@
 				"${workspace}"
 			],
 			"isFullBuild": true,
-			"group": "build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
 			"problemMatcher": [],
 			"label": "java (build): Build Workspace",
 			"detail": "$(tools) Build all the Java projects in workspace."
@@ -21,10 +24,7 @@
 			],
 			"problemMatcher": [],
 			"label": "java (buildArtifact): vscode files",
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			}
+			"group": "build"
 		}
 	]
 }
