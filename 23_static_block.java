@@ -36,7 +36,7 @@ class Mobile{
     }
 }
 
-class static_methods {
+class static_block {
     public static void main(String[] args) throws ClassNotFoundException {
         
         // To load the class without creating object
