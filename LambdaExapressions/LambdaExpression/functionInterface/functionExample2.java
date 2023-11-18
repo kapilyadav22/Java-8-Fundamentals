@@ -5,9 +5,9 @@ import java.util.function.Function;
 public class functionExample2 {
 
 	public static void main(String[] args) {
-		Function<String, Integer> f = s->s.length();  
-		
-		System.out.println(f.apply("Kapil")); 
+		Function<String, Integer> f = s->s.length();
+
+		System.out.println(f.apply("Kapil"));
 		System.out.println(f.apply("Rahul"));
 		System.out.println(f.apply("Vineet"));
 		System.out.println(f.apply("Abhishek"));

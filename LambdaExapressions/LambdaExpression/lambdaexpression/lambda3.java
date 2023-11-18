@@ -3,7 +3,7 @@ package lambdaexpression;
 
 @FunctionalInterface
 interface Cab3{
-	
+
 	public void bookCab(String Source, String Destination);
 	default public void city() {
 		System.out.println("delhi");

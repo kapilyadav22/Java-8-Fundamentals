@@ -19,7 +19,7 @@ class Employee {
 public class consumerExample2 {
 
 	public static void main(String[] args) {
-		ArrayList<Employee> employees = new ArrayList<Employee>();
+		ArrayList<Employee> employees = new ArrayList<>();
 
 		employees.add(new Employee("Kapil", 75000f));
 		employees.add(new Employee("Rahul", 15000f));

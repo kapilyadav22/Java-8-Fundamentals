@@ -4,7 +4,7 @@ package lambdaexpression;
 @FunctionalInterface
 interface Cab2{
 	public void bookCab();
-	
+
 	default public void city() {
 		System.out.println("delhi");
 	}

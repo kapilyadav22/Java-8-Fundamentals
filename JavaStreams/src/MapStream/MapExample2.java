@@ -1,9 +1,10 @@
 package mapStream;
 
-public class MapExample1 {
+public class MapExample2 {
 
 	public static void main(String[] args) {
-		System.out.println("Kapil");
+		// TODO Auto-generated method stub
+
 	}
 
 }

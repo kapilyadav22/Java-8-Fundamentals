@@ -15,14 +15,14 @@ interface Cab4{
 public class lambda4 {
 	public static void main(String[] args) {
 		//Cab4 cab = new Ola();
-		Cab4 cab =(Source,Destination) -> 
+		Cab4 cab =(Source,Destination) ->
 		{ System.out.println("cab is booked from "+ Source +" to "+Destination);
 			return ("Price : Rs 3000");
 		};
-	     
+
 		String Price = cab.bookCab("Delhi", "Rajasthan");
 		System.out.println(Price);
-		
+
 	}
 }
 
