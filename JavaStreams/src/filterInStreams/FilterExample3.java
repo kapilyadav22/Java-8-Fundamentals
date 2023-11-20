@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class filterExample3 {
+public class FilterExample3 {
 
 	public static void main(String[] args) {
 		List<String> words = Arrays.asList("Kapil", null, "Rahul", null,"Vineet", null, "Aditya", "javved");

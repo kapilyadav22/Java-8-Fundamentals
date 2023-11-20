@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class filterExample2 {
+public class FilterExample2 {
 
 	public static void main(String[] args) {
 		List<String> names = Arrays.asList("Kapil", "Rahul", "Vineet", "Aditya", "javved");

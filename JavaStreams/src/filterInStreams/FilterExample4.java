@@ -15,7 +15,7 @@ class Product{
 		this.price = price;
 	}
 }
-public class filterExample4 {
+public class FilterExample4 {
 
 	public static void main(String[] args) {
 
