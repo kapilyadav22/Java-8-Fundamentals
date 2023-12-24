@@ -33,17 +33,17 @@ public class ParallelStream {
 		//sequential stream
 		studentList.stream().filter(x -> x.getScore() >= 80).limit(3)
 				.forEach(stu -> System.out.println(stu.getName() + " " + stu.getScore()));
-		
-		
+
+
 		//parallel stream
 		studentList.parallelStream().filter(x -> x.getScore() >= 80).limit(3)
 		.forEach(stu -> System.out.println(stu.getName() + " " + stu.getScore()));
-		
+
 		//convert stream() -> parallelStream
 		studentList.stream().parallel().filter(x -> x.getScore() >= 80).limit(3)
 		.forEach(stu -> System.out.println(stu.getName() + " " + stu.getScore()));
 
 	}
-	
+
 
 }

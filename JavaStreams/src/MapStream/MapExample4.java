@@ -21,7 +21,7 @@ public class MapExample4 {
 
 	public static void main(String[] args) {
 		ArrayList<Employee> employees = new ArrayList<>();
-		List<Employee> filteredEmployees = new ArrayList<Employee>();
+		List<Employee> filteredEmployees = new ArrayList<>();
 
 		employees.add(new Employee(1, "Kapil", 75000f));
 		employees.add(new Employee(2, "Rahul", 15000f));
@@ -34,6 +34,6 @@ public class MapExample4 {
 			s.salary = s.salary * 1.10f;
 			return s;
 		}).collect(Collectors.toList());
-		
+
 	}
 }

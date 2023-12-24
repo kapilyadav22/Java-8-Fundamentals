@@ -9,7 +9,7 @@ public class FlatMapExample1 {
 
 	public static void main(String[] args) {
 		List<Integer> lists = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
-		List<Integer> finallists = new ArrayList<Integer>();
+		List<Integer> finallists = new ArrayList<>();
 
 		// map
 		finallists = lists.stream().map(x -> x + 10).collect(Collectors.toList());
@@ -22,7 +22,7 @@ public class FlatMapExample1 {
 		List<Integer> lists4 = Arrays.asList(7, 8);
 
 		List<List<Integer>> combinedLists = Arrays.asList(lists1, lists2, lists3, lists4);
-		List<Integer> updatedCombinedLists = new ArrayList<Integer>();
+		List<Integer> updatedCombinedLists = new ArrayList<>();
 
 		updatedCombinedLists = combinedLists.stream().flatMap(x -> x.stream().map(n -> n + 10))
 				.collect(Collectors.toList());

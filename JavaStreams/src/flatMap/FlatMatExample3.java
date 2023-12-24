@@ -22,12 +22,12 @@ public class FlatMatExample3 {
 
 	public static void main(String[] args) {
 
-		List<Student> studentList1 = new ArrayList<Student>();
+		List<Student> studentList1 = new ArrayList<>();
 		studentList1.add(new Student("Kapil", 1, 'A'));
 		studentList1.add(new Student("Rahul", 2, 'B'));
 		studentList1.add(new Student("Kapil", 3, 'C'));
 
-		List<Student> studentList2 = new ArrayList<Student>();
+		List<Student> studentList2 = new ArrayList<>();
 		studentList2.add(new Student("Ajay", 4, 'A'));
 		studentList2.add(new Student("Vineet", 5, 'B'));
 		studentList2.add(new Student("Alok", 6, 'C'));

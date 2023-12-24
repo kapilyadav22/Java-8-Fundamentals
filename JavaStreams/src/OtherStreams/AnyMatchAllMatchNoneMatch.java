@@ -1,10 +1,7 @@
 package OtherStreams;
 
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
-
-import javax.management.ValueExp;
 
 //anyMatch
 //allMatch
@@ -13,7 +10,7 @@ public class AnyMatchAllMatchNoneMatch {
 
 	public static void main(String[] args) {
 
-		Set<String> fruitSet = new HashSet<String>();
+		Set<String> fruitSet = new HashSet<>();
 		fruitSet.add("One Mango");
 		fruitSet.add("Two Pineapples");
 		fruitSet.add("One Papaya");
