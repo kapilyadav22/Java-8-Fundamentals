@@ -1,4 +1,4 @@
-package LambdaExpressions.src.consumer;
+package consumer;
 
 import java.util.function.Consumer;
 

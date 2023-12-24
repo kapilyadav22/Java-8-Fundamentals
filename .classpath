@@ -5,7 +5,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="JavaStreams/src/" kind="src" path=""/>
 	<classpathentry kind="src" path="JavaStreams/src"/>
 	<classpathentry kind="output" path="JavaStreams/bin"/>
 </classpath>
