@@ -1,4 +1,4 @@
-package mapStream;
+package MapStream;
 
 import java.util.Arrays;
 import java.util.List;
