@@ -1,11 +1,11 @@
-package OtherStreams;
+package IntermediateOperations;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class DistinctStreamDemo {
-
+	//Remove Duplicates From the Stream
 	public static void main(String[] args) {
 		List<String> vehicleslList = Arrays.asList("bike", "car", "bike", "auto", "plane", "cycle", "metro");
 

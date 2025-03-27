@@ -1,4 +1,4 @@
-package MapStream;
+package IntermediateOperations.MapStream;
 
 import java.util.Arrays;
 import java.util.List;

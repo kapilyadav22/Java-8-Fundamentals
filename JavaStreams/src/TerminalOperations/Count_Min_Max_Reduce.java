@@ -1,10 +1,10 @@
-package OtherStreams;
+package TerminalOperations;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-public class MiscExample2 {
+public class Count_Min_Max_Reduce {
 
 	public static void main(String[] args) {
 
@@ -24,13 +24,17 @@ public class MiscExample2 {
 
 
 		//reduce
+		//does reduction on the stream.Perform associative aggregation function
 		List<String> stringlList = Arrays.asList("A", "B", "C", "1", "2","3","4");
-
 
 		Optional<String> reduced = stringlList.stream().reduce((value, combinedValue)-> {
 			return combinedValue+value;}
 		);
-		System.out.println(reduced.get());
+
+		List<Integer> list = Arrays.asList(1, 2,3,4);
+
+		Optional<Integer> reducedList = list.stream().reduce((value, combinedValue)-> combinedValue+value);
+		System.out.println("Reduced List is " + reducedList.get());
 	}
 
 }

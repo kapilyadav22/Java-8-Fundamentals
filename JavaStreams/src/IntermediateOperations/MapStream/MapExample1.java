@@ -1,4 +1,4 @@
-package MapStream;
+package IntermediateOperations.MapStream;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class MapExample1 {
-
+	//Use to transform each element
 	public static void main(String[] args) {
 		List<String> vehicles = Arrays.asList("car", "bus", "truck", "flight", "auto");
 

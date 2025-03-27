@@ -1,4 +1,4 @@
-package filterInStreams;
+package IntermediateOperations.filterInStreams;
 
 import java.util.ArrayList;
 import java.util.Arrays;

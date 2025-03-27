@@ -1,4 +1,4 @@
-package OtherStreams;
+package IntermediateOperations;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 //findAny() findFirst()
 
 public class SortedStreamExample {
-
+	//Sorts the elements
 	public static void main(String[] args) {
 
 		List<Integer> list1 = Arrays.asList(5,6,7,1,3,2,4,8,0,19);

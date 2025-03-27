@@ -1,4 +1,4 @@
-package flatMap;
+package IntermediateOperations.flatMap;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class FlatMapExample1 {
-
+	//Use to iterate over each element of the complex collection, and helps to flatten it.
 	public static void main(String[] args) {
 		List<Integer> lists = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
 		List<Integer> finallists = new ArrayList<>();

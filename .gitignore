@@ -3,4 +3,5 @@
 .idea/
 Java8.iml
 .project
-.classpath
+
+bin/
