@@ -5,3 +5,8 @@ Java8.iml
 .project
 
 bin/
+
+
+/out
+
+/.iml
