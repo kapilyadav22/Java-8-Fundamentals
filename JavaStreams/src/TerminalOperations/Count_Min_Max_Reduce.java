@@ -23,7 +23,6 @@ public class Count_Min_Max_Reduce {
 		Optional<Integer> max= numbersList.stream().max(Integer::compareTo);
 		System.out.println(max.get());
 
-
 		//reduce
 		//does reduction on the stream.Perform associative aggregation function
 		List<String> stringlList = Arrays.asList("A", "B", "C", "1", "2","3","4");

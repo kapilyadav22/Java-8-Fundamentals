@@ -33,55 +33,36 @@ public class CollectorsDemo {
         );
 
         // 1. toList
-        List<String> names =
-                employees.stream()
-                        .map(e -> e.name)
-                        .collect(Collectors.toList());
+        List<String> names =employees.stream() .map(e -> e.name) .collect(Collectors.toList());
         System.out.println("toList: " + names);
 
         // 2. toSet
-        Set<String> departments =
-                employees.stream()
-                        .map(e -> e.department)
-                        .collect(Collectors.toSet());
+        Set<String> departments = employees.stream().map(e -> e.department).collect(Collectors.toSet());
         System.out.println("toSet: " + departments);
 
         // 3. toCollection
-        LinkedList<String> linkedList =
-                employees.stream()
-                        .map(e -> e.name)
-                        .collect(Collectors.toCollection(LinkedList::new));
+        LinkedList<String> linkedList = employees.stream().map(e -> e.name).collect(Collectors.toCollection(LinkedList::new));
         System.out.println("toCollection: " + linkedList);
 
         // 4. toMap
-        Map<Integer, String> idNameMap =
-                employees.stream()
-                        .collect(Collectors.toMap(e -> e.id, e -> e.name));
+        Map<Integer, String> idNameMap =  employees.stream().collect(Collectors.toMap(e -> e.id, e -> e.name));
         System.out.println("toMap: " + idNameMap);
 
         // 5. groupingBy
-        Map<String, List<Employee>> groupByDept =
-                employees.stream()
-                        .collect(Collectors.groupingBy(e -> e.department));
+        Map<String, List<Employee>> groupByDept = employees.stream() .collect(Collectors.groupingBy(e -> e.department));
         System.out.println("groupingBy: " + groupByDept);
 
         // 6. partitioningBy
-        Map<Boolean, List<Employee>> highSalary =
-                employees.stream()
+        Map<Boolean, List<Employee>> highSalary =employees.stream()
                         .collect(Collectors.partitioningBy(e -> e.salary > 60000));
         System.out.println("partitioningBy: " + highSalary);
 
         // 7. counting
-        Long count =
-                employees.stream()
-                        .collect(Collectors.counting());
+        Long count = employees.stream() .collect(Collectors.counting());
         System.out.println("counting: " + count);
 
         // 8. joining
-        String joinedNames =
-                employees.stream()
-                        .map(e -> e.name)
-                        .collect(Collectors.joining(", "));
+        String joinedNames = employees.stream().map(e -> e.name) .collect(Collectors.joining(", "));
         System.out.println("joining: " + joinedNames);
 
         // 9. mapping
